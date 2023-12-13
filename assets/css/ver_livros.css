@@ -1,0 +1,14 @@
+body:target  {
+    transition: background-color 0.5s;
+    background-color: #d2b48c;
+}
+
+.navbar:target {
+    transition: background-color 0.5s;
+    background-color: #d2b48c;
+}
+
+.navbar:target .navbar-nav .nav-link {
+    transition: color 10;
+    color: #000000;
+}
